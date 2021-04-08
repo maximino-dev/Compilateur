@@ -1,0 +1,7 @@
+#!/usr/bin/python
+t0=True
+t0=not t0
+t1=False
+t1=not t1
+t0=t0 or t1
+print(t0)
